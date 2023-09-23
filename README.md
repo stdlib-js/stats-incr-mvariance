@@ -63,7 +63,7 @@ s^2 = \frac{1}{W-1} \sum_{i=0}^{W-1} ( x_i - \bar{x} )^2
 ## Usage
 
 ```javascript
-import incrmvariance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvariance@deno/mod.js';
+import incrmvariance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvariance@v0.1.0-deno/mod.js';
 ```
 
 #### incrmvariance( window\[, mean] )
@@ -134,7 +134,7 @@ s2 = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrmvariance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvariance@deno/mod.js';
+import incrmvariance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvariance@v0.1.0-deno/mod.js';
 
 var accumulator;
 var v;
