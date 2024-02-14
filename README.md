@@ -63,6 +63,11 @@ s^2 = \frac{1}{W-1} \sum_{i=0}^{W-1} ( x_i - \bar{x} )^2
 ## Usage
 
 ```javascript
+import incrmvariance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvariance@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mvariance/tags). For example,
+
+```javascript
 import incrmvariance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvariance@v0.2.0-esm/index.mjs';
 ```
 
@@ -139,7 +144,7 @@ s2 = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmvariance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvariance@v0.2.0-esm/index.mjs';
+import incrmvariance from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvariance@esm/index.mjs';
 
 var accumulator;
 var v;
