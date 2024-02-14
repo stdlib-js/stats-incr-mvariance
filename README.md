@@ -65,6 +65,11 @@ s^2 = \frac{1}{W-1} \sum_{i=0}^{W-1} ( x_i - \bar{x} )^2
 To use in Observable,
 
 ```javascript
+incrmvariance = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvariance@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mvariance/tags). For example,
+
+```javascript
 incrmvariance = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvariance@v0.2.0-umd/browser.js' )
 ```
 
@@ -77,7 +82,7 @@ var incrmvariance = require( 'path/to/vendor/umd/stats-incr-mvariance/index.js' 
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvariance@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvariance@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -161,7 +166,7 @@ s2 = accumulator();
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvariance@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mvariance@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
